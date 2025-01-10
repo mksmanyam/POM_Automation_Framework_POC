@@ -10,8 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
     private WebDriver driver;
-   
-    
+
     // Web elements
     private By usernameField = By.name("_ctl0:MPContent:txtUsername");
     private By passwordField = By.id("_ctl0_MPContent_txtPassword");

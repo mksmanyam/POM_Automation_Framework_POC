@@ -8,6 +8,7 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="validOrderCreation"/>
+          <include name="invalidDataValidation" invocation-numbers="3"/>
         </methods>
       </class> <!-- testCases.Order4506Tests -->
       <class name="testCases.LoginTest">

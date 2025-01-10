@@ -11,7 +11,7 @@ public class ConfigUtil {
     static {
         try {
             // Load the properties file from the classpath
-            FileInputStream fileInputStream = new FileInputStream("C:\\Users\\AL10523\\eclipse-workspace\\AccionSeleniumPoc\\src\\main\\java\\utils\\configUtil.properties");
+            FileInputStream fileInputStream = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\utils\\configUtil.properties");
             properties = new Properties();
             properties.load(fileInputStream);
             fileInputStream.close();
